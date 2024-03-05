@@ -1,0 +1,2 @@
+variable "onboarding_json" {}
+

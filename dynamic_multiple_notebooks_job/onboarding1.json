@@ -1,0 +1,17 @@
+{
+  "job_name": "Sanjiv_Job1",
+  "notebooks": {
+    "notebook_1": "notebooks/notebook-1",
+    "notebook_2": "notebooks/notebook-2",
+    "notebook_3": "notebooks/notebook-3"
+  },
+  "notebooks_dependency": {
+    "notebook_1": [],
+    "notebook_2": [
+      "notebook_1"
+    ],
+    "notebook_3": [
+      "notebook_2"
+    ]
+  }
+}
